@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.14)  19 OCT 2022 13:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.14)  19 OCT 2022 13:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -803,21 +803,24 @@ Package: listings 2020/03/24 1.8d (Carsten Heinz)
 \c@hyp=\count334
 
 
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
+! LaTeX Error: \begin{document} ended by \end{report}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 \item[]
-             Part 1
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+l.66 \end{report}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
-
-Underfull \hbox (badness 10000) detected at line 66
-[][]
- []
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.66 \end{report}
+                 
+Things are pretty mixed up, but I think the worst is over.
 
 )
 ! Emergency stop.
@@ -827,11 +830,11 @@ Underfull \hbox (badness 10000) detected at line 66
 
  
 Here is how much of TeX's memory you used:
- 24841 strings out of 478268
- 444412 string characters out of 5846347
- 741056 words of memory out of 5000000
- 42646 multiletter control sequences out of 15000+600000
+ 24842 strings out of 478268
+ 444421 string characters out of 5846347
+ 740056 words of memory out of 5000000
+ 42647 multiletter control sequences out of 15000+600000
  471006 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,1n,89p,3238b,262s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,0n,89p,3238b,262s stack positions out of 10000i,1000n,20000p,200000b,200000s
 !  ==> Fatal error occurred, no output PDF file produced!
