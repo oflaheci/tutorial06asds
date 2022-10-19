@@ -88,3 +88,7 @@ dat %>%
        y = "Runtime (minutes)")
 
 ggsave(Runtime.pdf)
+
+regressionTable <- matrix(c(0.4579, (0.4579+0.3149), (1-0.4579),
+                            (1-(0.4579+0.3149)), ncol = 2, nrow = 2))
+regressionTable
