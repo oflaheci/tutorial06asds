@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.14)  19 OCT 2022 14:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.14)  19 OCT 2022 14:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -888,21 +888,7 @@ LaTeX Info: Redefining \nameref on input line 66.
 \c@lstlisting=\count343
 
 
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.67 	\item[]
-              Hi
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 67
-[][]
- []
+LaTeX Warning: No \author given.
 
 [1
 
@@ -912,19 +898,22 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25873 strings out of 478268
- 462615 string characters out of 5846347
- 756671 words of memory out of 5000000
- 43618 multiletter control sequences out of 15000+600000
- 475353 words of font info for 55 fonts, out of 8000000 for 9000
+ 25892 strings out of 478268
+ 462869 string characters out of 5846347
+ 758662 words of memory out of 5000000
+ 43634 multiletter control sequences out of 15000+600000
+ 479194 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,5n,89p,3238b,326s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-
-Output written on report.pdf (1 page, 9904 bytes).
+ 84i,6n,89p,3238b,326s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
+usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></us
+r/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on report.pdf (1 page, 42590 bytes).
 PDF statistics:
- 21 PDF objects out of 1000 (max. 8388607)
- 15 compressed objects within 1 object stream
+ 37 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
